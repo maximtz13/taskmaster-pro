@@ -88,7 +88,7 @@ var taskP = $("<p>")
 $(this).replaceWith(taskP);
 });
 
-// due date was clickeds
+// due date was clicked
 $(".list-group").on("click", "span", function() {
   // get current text
   var date = $(this)
